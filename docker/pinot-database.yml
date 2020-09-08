@@ -1,0 +1,120 @@
+databases:
+- database_name: pinot-quickstart
+  extra: "{\r\n    \"metadata_params\": {},\r\n    \"engine_params\": {},\r\n    \"\
+    metadata_cache_timeout\": {},\r\n    \"schemas_allowed_for_csv_upload\": []\r\n\
+    }"
+  sqlalchemy_uri: pinot+http://PinotClimateAnalytics:8000/query?server=http%3A%2F%2FPinotClimateAnalytics%3A9000%2F
+  tables:
+  - columns:
+    - column_name: BEGIN_DATE_TIME
+      is_dttm: true
+      python_date_format: ''
+      type: STRING
+    - column_name: BEGIN_LAT
+      type: FLOAT
+      verbose_name: ''
+    - column_name: BEGIN_LON
+      type: FLOAT
+      verbose_name: ''
+    - column_name: DAMAGE_CROPS
+      type: STRING
+    - column_name: DATA_SOURCE
+      type: STRING
+    - column_name: EPISODE_NARRATIVE
+      type: STRING
+    - column_name: DAMAGE_PROPERTY
+      type: STRING
+    - column_name: MAGNITUDE
+      type: FLOAT
+    - column_name: END_LAT
+      type: FLOAT
+    - column_name: EVENT_NARRATIVE
+      type: STRING
+    - column_name: BEGIN_LOCATION
+      type: STRING
+    - column_name: BEGIN_DAY
+      type: LONG
+    - column_name: BEGIN_RANGE
+      type: LONG
+    - column_name: BEGIN_YEARMONTH
+      type: LONG
+    - column_name: BEGIN_AZIMUTH
+      type: STRING
+    - column_name: DEATHS_INDIRECT
+      type: LONG
+    - column_name: DEATHS_DIRECT
+      type: LONG
+    - column_name: FLOOD_CAUSE
+      type: STRING
+    - column_name: END_LOCATION
+      type: STRING
+    - column_name: TOR_OTHER_CZ_NAME
+      type: STRING
+    - column_name: TOR_OTHER_CZ_STATE
+      type: STRING
+    - column_name: TOR_F_SCALE
+      type: STRING
+    - column_name: CATEGORY
+      type: STRING
+    - column_name: CZ_NAME
+      type: STRING
+    - column_name: END_DATE_TIME
+      type: STRING
+    - column_name: END_DAY
+      type: LONG
+    - column_name: MAGNITUDE_TYPE
+      type: STRING
+    - column_name: END_RANGE
+      type: LONG
+    - column_name: END_YEARMONTH
+      type: LONG
+    - column_name: END_LON
+      type: FLOAT
+    - column_name: END_AZIMUTH
+      type: STRING
+    - column_name: STATE_FIPS
+      type: LONG
+    - column_name: MONTH_NAME
+      type: STRING
+    - column_name: STATE
+      type: STRING
+    - column_name: YEAR
+      type: LONG
+    - column_name: BEGIN_TIME
+      type: STRING
+    - column_name: INJURIES_INDIRECT
+      type: LONG
+    - column_name: INJURIES_DIRECT
+      type: LONG
+    - column_name: CZ_TIMEZONE
+      type: STRING
+    - column_name: TOR_OTHER_CZ_FIPS
+      type: STRING
+    - column_name: SOURCE
+      type: STRING
+    - column_name: CZ_TYPE
+      type: STRING
+    - column_name: CZ_FIPS
+      type: LONG
+    - column_name: EPISODE_ID
+      type: STRING
+    - column_name: END_TIME
+      type: STRING
+    - column_name: EVENT_ID
+      type: LONG
+    - column_name: TOR_WIDTH
+      type: STRING
+    - column_name: EVENT_TYPE
+      type: STRING
+    - column_name: TOR_OTHER_WFO
+      type: STRING
+    - column_name: TOR_LENGTH
+      type: STRING
+    - column_name: WFO
+      type: STRING
+    filter_select_enabled: true
+    metrics:
+    - expression: COUNT(*)
+      metric_name: count
+      verbose_name: COUNT(*)
+    table_name: stormEvents
