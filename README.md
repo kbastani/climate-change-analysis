@@ -9,6 +9,7 @@ The example application in this repository bootstraps an Apache Pinot recipe for
 To start the cluster, run the following commands.
 
 ```bash
+$ docker network create PinotNetwork
 $ docker-compose up -d
 $ docker-compose logs -f --tail=100
 ```
