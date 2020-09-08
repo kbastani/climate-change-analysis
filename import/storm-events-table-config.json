@@ -18,6 +18,8 @@
    },
    "tableType":"OFFLINE",
    "metadata":{
-      "customConfigs":{}
+      "customConfigs": {
+        
+      }
    }
 }
