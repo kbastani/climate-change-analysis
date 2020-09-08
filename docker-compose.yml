@@ -17,15 +17,18 @@
 x-superset-depends-on: &superset-depends-on
   - db
   - redis
+x-pinot-depends-on: &pinot-depends-on
+  - db
+  - redis
+  - superset
 x-superset-volumes: &superset-volumes
-  # /app/pythonpath_docker will be appended to the PYTHONPATH in the final container
   - ./docker/docker-init.sh:/app/docker-init.sh
   - ./docker/pinot-dashboard.json:/app/pinot-dashboard.json
   - ./docker/pinot-database.yml:/app/pinot-database.yml
   - ./docker/pythonpath_dev:/app/pythonpath
-  # - ./superset:/app/superset
-  # - ./superset-frontend:/app/superset-frontend
   - superset_home:/app/superset_home
+x-pinot-volumes: &pinot-volumes
+  - ./import:/opt/pinot/import
 
 version: "3.7"
 
@@ -66,6 +69,18 @@ services:
     networks:
       - PinotNetwork
 
+  pinot:
+    image: apachepinot/pinot:0.5.0-SNAPSHOT-c223dfcfb-20200821
+    container_name: pinot_app_noaa
+    command: ["QuickStart", "-type", "BATCH"]
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+      - 9000:9000
+    depends_on: *pinot-depends-on
+    volumes: *pinot-volumes
+    networks:
+      - PinotNetwork
 
 networks:
   PinotNetwork:
