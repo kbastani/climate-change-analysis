@@ -1,0 +1,23 @@
+{
+   "tableName":"stormEvents",
+   "segmentsConfig":{
+      "segmentAssignmentStrategy":"BalanceNumSegmentAssignmentStrategy",
+      "segmentPushType":"APPEND",
+      "schemaName":"stormEvents",
+      "replication":1
+   },
+   "tableIndexConfig":{
+      "invertedIndexColumns":[
+
+      ],
+      "loadMode":"MMAP"
+   },
+   "tenants":{
+      "broker":"DefaultTenant",
+      "server":"DefaultTenant"
+   },
+   "tableType":"OFFLINE",
+   "metadata":{
+      "customConfigs":{}
+   }
+}

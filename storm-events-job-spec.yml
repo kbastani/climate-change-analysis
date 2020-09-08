@@ -1,0 +1,25 @@
+executionFrameworkSpec:
+  name: 'standalone'
+  segmentGenerationJobRunnerClassName: 'org.apache.pinot.plugin.ingestion.batch.standalone.SegmentGenerationJobRunner'
+  segmentTarPushJobRunnerClassName: 'org.apache.pinot.plugin.ingestion.batch.standalone.SegmentTarPushJobRunner'
+  segmentUriPushJobRunnerClassName: 'org.apache.pinot.plugin.ingestion.batch.standalone.SegmentUriPushJobRunner'
+jobType: SegmentCreationAndTarPush
+inputDirURI: '/tmp/pinot-storm-analytics/rawdata/'
+includeFileNamePattern: 'glob:**/*.csv'
+outputDirURI: '/tmp/pinot-storm-analytics/segments/'
+overwriteOutput: true
+pinotFSSpecs:
+  - scheme: file
+    className: org.apache.pinot.spi.filesystem.LocalPinotFS
+recordReaderSpec:
+  dataFormat: 'csv'
+  className: 'org.apache.pinot.plugin.inputformat.csv.CSVRecordReader'
+  configClassName: 'org.apache.pinot.plugin.inputformat.csv.CSVRecordReaderConfig'
+  configs:
+    multiValueDelimiter: '—'
+tableSpec:
+  tableName: 'stormEvents'
+  schemaURI: 'http://localhost:9000/tables/stormEvents/schema'
+  tableConfigURI: 'http://localhost:9000/tables/stormEvents'
+pinotClusterSpecs:
+  - controllerURI: 'http://localhost:9000'
