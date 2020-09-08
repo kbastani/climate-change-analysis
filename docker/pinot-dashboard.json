@@ -5,18 +5,18 @@
                 "css": "",
                 "dashboard_title": "NOAA Storm Dashboard",
                 "description": null,
-                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"filter_scopes\": {\"84\": {\"YEAR\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"EVENT_TYPE\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"84\\\": {\\\"YEAR\\\": [2008], \\\"EVENT_TYPE\\\": [\\\"Tornado\\\", \\\"Lightning\\\", \\\"Thunderstorm Wind\\\"]}}\", \"color_scheme\": null, \"remote_id\": 6}",
-                "position_json": "{\"CHART-8Ygjt_tV3w\":{\"children\":[],\"id\":\"CHART-8Ygjt_tV3w\",\"meta\":{\"chartId\":1,\"height\":66,\"sliceName\":\"Storm Events NOAA Pinot\",\"width\":12},\"parents\":[\"ROOT_ID\",\"TABS-lV0r00f4H1\",\"TAB-NF3dlrWGS\",\"TABS-CSjo6VfNrj\",\"TAB-EcNm_wh922\",\"ROW-z29-bGuMw\"],\"type\":\"CHART\"},\"CHART-obPARpIxwf\":{\"children\":[],\"id\":\"CHART-obPARpIxwf\",\"meta\":{\"chartId\":84,\"height\":27,\"sliceName\":\"Storm Filter\",\"width\":7},\"parents\":[\"ROOT_ID\",\"TABS-lV0r00f4H1\",\"TAB-NF3dlrWGS\",\"TABS-CSjo6VfNrj\",\"TAB-EcNm_wh922\",\"ROW-OWwnd1bmQ\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[],\"id\":\"GRID_ID\",\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"NOAA Storm Dashboard\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"TABS-lV0r00f4H1\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-OWwnd1bmQ\":{\"children\":[\"CHART-obPARpIxwf\"],\"id\":\"ROW-OWwnd1bmQ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"TABS-lV0r00f4H1\",\"TAB-NF3dlrWGS\",\"TABS-CSjo6VfNrj\",\"TAB-EcNm_wh922\"],\"type\":\"ROW\"},\"ROW-z29-bGuMw\":{\"children\":[\"CHART-8Ygjt_tV3w\"],\"id\":\"ROW-z29-bGuMw\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"TABS-lV0r00f4H1\",\"TAB-NF3dlrWGS\",\"TABS-CSjo6VfNrj\",\"TAB-EcNm_wh922\"],\"type\":\"ROW\"},\"TAB-EcNm_wh922\":{\"children\":[\"ROW-OWwnd1bmQ\",\"ROW-z29-bGuMw\"],\"id\":\"TAB-EcNm_wh922\",\"meta\":{\"text\":\"Storm Map\"},\"parents\":[\"ROOT_ID\",\"TABS-lV0r00f4H1\",\"TAB-NF3dlrWGS\",\"TABS-CSjo6VfNrj\"],\"type\":\"TAB\"},\"TAB-NF3dlrWGS\":{\"children\":[\"TABS-CSjo6VfNrj\"],\"id\":\"TAB-NF3dlrWGS\",\"meta\":{\"text\":\"NOAA Maps\"},\"parents\":[\"ROOT_ID\",\"TABS-lV0r00f4H1\"],\"type\":\"TAB\"},\"TABS-CSjo6VfNrj\":{\"children\":[\"TAB-EcNm_wh922\"],\"id\":\"TABS-CSjo6VfNrj\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"TABS-lV0r00f4H1\",\"TAB-NF3dlrWGS\"],\"type\":\"TABS\"},\"TABS-lV0r00f4H1\":{\"children\":[\"TAB-NF3dlrWGS\"],\"id\":\"TABS-lV0r00f4H1\",\"meta\":{},\"parents\":[\"ROOT_ID\"],\"type\":\"TABS\"}}",
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"filter_scopes\": {\"2\": {\"YEAR\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"EVENT_TYPE\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"84\\\": {\\\"YEAR\\\": [2008], \\\"EVENT_TYPE\\\": [\\\"Tornado\\\", \\\"Lightning\\\", \\\"Thunderstorm Wind\\\"]}}\", \"color_scheme\": null, \"remote_id\": 1, \"import_time\": 1599579328}",
+                "position_json": "{\"CHART-8Ygjt_tV3w\": {\"children\": [], \"id\": \"CHART-8Ygjt_tV3w\", \"meta\": {\"chartId\": 1, \"height\": 66, \"sliceName\": \"Storm Events NOAA Pinot\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\", \"TABS-CSjo6VfNrj\", \"TAB-EcNm_wh922\", \"ROW-z29-bGuMw\"], \"type\": \"CHART\"}, \"CHART-obPARpIxwf\": {\"children\": [], \"id\": \"CHART-obPARpIxwf\", \"meta\": {\"chartId\": 2, \"height\": 27, \"sliceName\": \"Storm Filter\", \"width\": 7}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\", \"TABS-CSjo6VfNrj\", \"TAB-EcNm_wh922\", \"ROW-OWwnd1bmQ\"], \"type\": \"CHART\"}, \"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [], \"id\": \"GRID_ID\", \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"meta\": {\"text\": \"NOAA Storm Dashboard\"}, \"type\": \"HEADER\"}, \"ROOT_ID\": {\"children\": [\"TABS-lV0r00f4H1\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"ROW-OWwnd1bmQ\": {\"children\": [\"CHART-obPARpIxwf\"], \"id\": \"ROW-OWwnd1bmQ\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\", \"TABS-CSjo6VfNrj\", \"TAB-EcNm_wh922\"], \"type\": \"ROW\"}, \"ROW-z29-bGuMw\": {\"children\": [\"CHART-8Ygjt_tV3w\"], \"id\": \"ROW-z29-bGuMw\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\", \"TABS-CSjo6VfNrj\", \"TAB-EcNm_wh922\"], \"type\": \"ROW\"}, \"TAB-EcNm_wh922\": {\"children\": [\"ROW-OWwnd1bmQ\", \"ROW-z29-bGuMw\"], \"id\": \"TAB-EcNm_wh922\", \"meta\": {\"text\": \"Storm Map\"}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\", \"TABS-CSjo6VfNrj\"], \"type\": \"TAB\"}, \"TAB-NF3dlrWGS\": {\"children\": [\"TABS-CSjo6VfNrj\"], \"id\": \"TAB-NF3dlrWGS\", \"meta\": {\"text\": \"NOAA Maps\"}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\"], \"type\": \"TAB\"}, \"TABS-CSjo6VfNrj\": {\"children\": [\"TAB-EcNm_wh922\"], \"id\": \"TABS-CSjo6VfNrj\", \"meta\": {}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\"], \"type\": \"TABS\"}, \"TABS-lV0r00f4H1\": {\"children\": [\"TAB-NF3dlrWGS\"], \"id\": \"TABS-lV0r00f4H1\", \"meta\": {}, \"parents\": [\"ROOT_ID\"], \"type\": \"TABS\"}}",
                 "slices": [
                     {
                         "__Slice__": {
                             "cache_timeout": null,
                             "datasource_name": "stormEvents",
                             "datasource_type": "table",
-                            "id": 1,
-                            "params": "{\"adhoc_filters\": [], \"autozoom\": false, \"color_picker\": {\"a\": 1, \"b\": 0, \"g\": 235, \"r\": 5}, \"color_scheme\": \"d3Category20\", \"datasource\": \"1__table\", \"dimension\": \"EVENT_TYPE\", \"filter_nulls\": true, \"granularity\": null, \"granularity_sqla\": \"BEGIN_DATE_TIME\", \"js_columns\": [], \"label_colors\": {}, \"legend_format\": \"SMART_NUMBER\", \"legend_position\": null, \"mapbox_style\": \"mapbox://styles/mapbox/dark-v9\", \"max_radius\": 10, \"min_radius\": 1, \"multiplier\": 1, \"point_radius_fixed\": {\"type\": \"metric\", \"value\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"INJURIES_DIRECT\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 417, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"LONG\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(INJURIES_DIRECT)\", \"optionName\": \"metric_ifcnzq5zdb_352p7bg67wa\", \"sqlExpression\": null}}, \"point_unit\": \"radius_miles\", \"queryFields\": {\"dimension\": \"groupby\", \"js_columns\": \"groupby\"}, \"row_limit\": null, \"slice_id\": 1, \"spatial\": {\"latCol\": \"BEGIN_LAT\", \"lonCol\": \"BEGIN_LON\", \"type\": \"latlong\"}, \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport\": {\"altitude\": 1.5, \"bearing\": -0.9523809523809523, \"height\": 853, \"latitude\": 38.84999965618232, \"longitude\": -95.87581313193579, \"maxPitch\": 60, \"maxZoom\": 20, \"minPitch\": 0, \"minZoom\": 0, \"pitch\": 0.16104500357114526, \"position\": [0, 0, 0], \"transitionDuration\": 0, \"width\": 1144, \"zoom\": 3.7316466929996444}, \"viz_type\": \"deck_scatter\", \"remote_id\": 1, \"datasource_name\": \"stormEvents\", \"schema\": null, \"database_name\": \"pinot-quickstart\"}",
-                            "slice_name": "Storm Events NOAA Pinot",
-                            "viz_type": "deck_scatter"
+                            "id": 2,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"1__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"YEAR\", \"key\": \"2s98dfu\", \"label\": \"Year\", \"metric\": null, \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": false, \"clearable\": true, \"column\": \"EVENT_TYPE\", \"key\": \"li3j2lk\", \"label\": \"Event Type\", \"metric\": null, \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"year\", \"queryFields\": {}, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 2, \"datasource_name\": \"stormEvents\", \"schema\": null, \"database_name\": \"pinot-quickstart\", \"import_time\": 1599579328}",
+                            "slice_name": "Storm Filter",
+                            "viz_type": "filter_box"
                         }
                     },
                     {
@@ -24,14 +24,14 @@
                             "cache_timeout": null,
                             "datasource_name": "stormEvents",
                             "datasource_type": "table",
-                            "id": 84,
-                            "params": "{\"adhoc_filters\": [], \"datasource\": \"1__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"YEAR\", \"key\": \"2s98dfu\", \"label\": \"Year\", \"metric\": null, \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": false, \"clearable\": true, \"column\": \"EVENT_TYPE\", \"key\": \"li3j2lk\", \"label\": \"Event Type\", \"metric\": null, \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"year\", \"queryFields\": {}, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 84, \"datasource_name\": \"stormEvents\", \"schema\": null, \"database_name\": \"pinot-quickstart\"}",
-                            "slice_name": "Storm Filter",
-                            "viz_type": "filter_box"
+                            "id": 1,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_txfxple4jvr_xa3sfa4eq88\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"BEGIN_LON <> 'NULL'\", \"subject\": null}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_xhflj6icbvp_j8yxlbxxhm\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"BEGIN_LAT <> 'NULL'\", \"subject\": null}], \"autozoom\": false, \"color_picker\": {\"a\": 1, \"b\": 0, \"g\": 235, \"r\": 5}, \"color_scheme\": \"d3Category20\", \"datasource\": \"1__table\", \"dimension\": \"EVENT_TYPE\", \"filter_nulls\": true, \"granularity\": null, \"granularity_sqla\": \"BEGIN_DATE_TIME\", \"js_columns\": [], \"label_colors\": {}, \"legend_format\": \"SMART_NUMBER\", \"legend_position\": null, \"mapbox_style\": \"mapbox://styles/mapbox/dark-v9\", \"max_radius\": 10, \"min_radius\": 1, \"multiplier\": 1, \"point_radius_fixed\": {\"type\": \"metric\", \"value\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"INJURIES_DIRECT\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 417, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"LONG\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(INJURIES_DIRECT)\", \"optionName\": \"metric_ifcnzq5zdb_352p7bg67wa\", \"sqlExpression\": null}}, \"point_unit\": \"radius_miles\", \"queryFields\": {\"dimension\": \"groupby\", \"js_columns\": \"groupby\"}, \"row_limit\": null, \"spatial\": {\"latCol\": \"BEGIN_LAT\", \"lonCol\": \"BEGIN_LON\", \"type\": \"latlong\"}, \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport\": {\"altitude\": 1.5, \"bearing\": -0.9523809523809523, \"height\": 853, \"latitude\": 38.84999965618232, \"longitude\": -95.87581313193579, \"maxPitch\": 60, \"maxZoom\": 20, \"minPitch\": 0, \"minZoom\": 0, \"pitch\": 0.16104500357114526, \"position\": [0, 0, 0], \"transitionDuration\": 0, \"width\": 1144, \"zoom\": 3.7316466929996444}, \"viz_type\": \"deck_scatter\", \"remote_id\": 1, \"datasource_name\": \"stormEvents\", \"schema\": null, \"database_name\": \"pinot-quickstart\"}",
+                            "slice_name": "Storm Events NOAA Pinot",
+                            "viz_type": "deck_scatter"
                         }
                     }
                 ],
-                "slug": "tabbed_dash"
+                "slug": null
             }
         }
     ],
@@ -42,20 +42,20 @@
                 "columns": [
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T02:02:44"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "BEGIN_LAT",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T00:58:06"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 44,
+                            "id": 2,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -66,14 +66,134 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T02:02:44"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "BEGIN_LON",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T00:58:06"
+                                "__datetime__": "2020-09-08T15:35:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 3,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "FLOAT",
+                            "verbose_name": ""
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2020-09-08T15:35:28"
+                            },
+                            "column_name": "BEGIN_YEARMONTH",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2020-09-08T15:35:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 14,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "LONG",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2020-09-08T15:35:28"
+                            },
+                            "column_name": "BEGIN_DAY",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2020-09-08T15:35:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 12,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "LONG",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2020-09-08T15:35:28"
+                            },
+                            "column_name": "END_YEARMONTH",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2020-09-08T15:35:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 29,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "LONG",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2020-09-08T15:35:28"
+                            },
+                            "column_name": "END_DAY",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2020-09-08T15:35:23"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 26,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "LONG",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2020-09-08T15:35:28"
+                            },
+                            "column_name": "END_TIME",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
@@ -84,146 +204,26 @@
                             "is_dttm": false,
                             "python_date_format": null,
                             "table_id": 1,
-                            "type": "FLOAT",
-                            "verbose_name": ""
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
-                            },
-                            "column_name": "BEGIN_YEARMONTH",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 398,
-                            "is_active": null,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 1,
-                            "type": "LONG",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
-                            },
-                            "column_name": "BEGIN_DAY",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 399,
-                            "is_active": null,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 1,
-                            "type": "LONG",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
-                            },
-                            "column_name": "END_YEARMONTH",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 400,
-                            "is_active": null,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 1,
-                            "type": "LONG",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
-                            },
-                            "column_name": "END_DAY",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 401,
-                            "is_active": null,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 1,
-                            "type": "LONG",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
-                            },
-                            "column_name": "END_TIME",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 402,
-                            "is_active": null,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 1,
                             "type": "STRING",
                             "verbose_name": null
                         }
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "EPISODE_ID",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 403,
+                            "id": 44,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -234,20 +234,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "EVENT_ID",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 404,
+                            "id": 46,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -258,20 +258,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "STATE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 405,
+                            "id": 34,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -282,20 +282,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "STATE_FIPS",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 406,
+                            "id": 32,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -306,20 +306,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "YEAR",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 407,
+                            "id": 35,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -330,20 +330,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "MONTH_NAME",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 408,
+                            "id": 33,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -354,20 +354,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "EVENT_TYPE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:24"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 409,
+                            "id": 48,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -378,20 +378,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "CZ_TYPE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 410,
+                            "id": 42,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -402,20 +402,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "CZ_FIPS",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 411,
+                            "id": 43,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -426,20 +426,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "CZ_NAME",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 412,
+                            "id": 24,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -450,20 +450,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "WFO",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:24"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 413,
+                            "id": 51,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -474,20 +474,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-04T00:51:37"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "BEGIN_DATE_TIME",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 414,
+                            "id": 1,
                             "is_active": null,
                             "is_dttm": true,
                             "python_date_format": "",
@@ -498,20 +498,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T02:02:44"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "END_LAT",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:53:46"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 534,
+                            "id": 9,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -522,20 +522,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T02:02:44"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "END_LON",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:53:46"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 535,
+                            "id": 30,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -546,20 +546,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "CZ_TIMEZONE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 415,
+                            "id": 39,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -570,20 +570,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "END_DATE_TIME",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 416,
+                            "id": 25,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -594,20 +594,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "INJURIES_DIRECT",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 417,
+                            "id": 38,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -618,20 +618,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "INJURIES_INDIRECT",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 418,
+                            "id": 37,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -642,20 +642,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "DEATHS_DIRECT",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 419,
+                            "id": 17,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -666,20 +666,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "DEATHS_INDIRECT",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 420,
+                            "id": 16,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -690,20 +690,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "DAMAGE_PROPERTY",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 421,
+                            "id": 7,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -714,20 +714,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "DAMAGE_CROPS",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 422,
+                            "id": 4,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -738,20 +738,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "SOURCE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 423,
+                            "id": 41,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -762,20 +762,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "MAGNITUDE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 424,
+                            "id": 8,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -786,20 +786,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "MAGNITUDE_TYPE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 425,
+                            "id": 27,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -810,20 +810,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "FLOOD_CAUSE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 426,
+                            "id": 18,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -834,20 +834,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "CATEGORY",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 427,
+                            "id": 23,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -858,20 +858,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "TOR_F_SCALE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 428,
+                            "id": 22,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -882,20 +882,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "TOR_LENGTH",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:24"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 429,
+                            "id": 50,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -906,20 +906,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "TOR_WIDTH",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:24"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 430,
+                            "id": 47,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -930,20 +930,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "TOR_OTHER_WFO",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:24"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 431,
+                            "id": 49,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -954,20 +954,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "TOR_OTHER_CZ_STATE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 432,
+                            "id": 21,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -978,20 +978,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "TOR_OTHER_CZ_FIPS",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 433,
+                            "id": 40,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1002,20 +1002,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "TOR_OTHER_CZ_NAME",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 434,
+                            "id": 20,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1026,20 +1026,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "BEGIN_RANGE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 435,
+                            "id": 13,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1050,20 +1050,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "BEGIN_AZIMUTH",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 436,
+                            "id": 15,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1074,20 +1074,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "BEGIN_LOCATION",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 437,
+                            "id": 11,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1098,20 +1098,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "END_RANGE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 438,
+                            "id": 28,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1122,20 +1122,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "END_AZIMUTH",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 439,
+                            "id": 31,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1146,20 +1146,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "END_LOCATION",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 440,
+                            "id": 19,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1170,20 +1170,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "EPISODE_NARRATIVE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 441,
+                            "id": 6,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1194,20 +1194,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "EVENT_NARRATIVE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 442,
+                            "id": 10,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1218,20 +1218,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-01T01:58:12"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "DATA_SOURCE",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 443,
+                            "id": 5,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1242,20 +1242,20 @@
                     },
                     {
                         "__TableColumn__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-03T23:00:11"
+                                "__datetime__": "2020-09-08T15:35:28"
                             },
                             "column_name": "BEGIN_TIME",
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-01T01:47:18"
+                                "__datetime__": "2020-09-08T15:35:23"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 444,
+                            "id": 36,
                             "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
@@ -1274,7 +1274,7 @@
                 "metrics": [
                 ],
                 "offset": 0,
-                "params": "{\"remote_id\": 1, \"database_name\": \"pinot-quickstart\"}",
+                "params": "{\"remote_id\": 1, \"database_name\": \"pinot-quickstart\", \"import_time\": 1599579328}",
                 "schema": null,
                 "sql": null,
                 "table_name": "stormEvents",
