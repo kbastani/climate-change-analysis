@@ -19,7 +19,13 @@
    "tableType":"OFFLINE",
    "metadata":{
       "customConfigs": {
-        
+
       }
-   }
+   },
+   "ingestionConfig": {
+     "transformConfigs": [{
+       "columnName": "EPOCH_TIMESTAMP",
+       "transformFunction": "fromDateTime(BEGIN_DATE_TIME, 'dd-MMM-yy HH:mm:ss')"
+    }]
+  }
 }

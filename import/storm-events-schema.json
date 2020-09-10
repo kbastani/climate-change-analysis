@@ -204,6 +204,12 @@
    ],
    "dateTimeFieldSpecs":[
       {
+        "name":"EPOCH_TIMESTAMP",
+        "dataType":"LONG",
+        "format":"1:SECONDS:EPOCH",
+        "granularity":"1:MINUTES"
+      },
+      {
          "name":"BEGIN_DATE_TIME",
          "dataType":"STRING",
          "format":"1:SECONDS:SIMPLE_DATE_FORMAT:dd-MMM-yy HH:mm:ss",
