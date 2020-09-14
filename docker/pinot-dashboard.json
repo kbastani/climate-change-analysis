@@ -5,8 +5,8 @@
                 "css": "",
                 "dashboard_title": "NOAA Storm Dashboard",
                 "description": null,
-                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"filter_scopes\": {\"2\": {\"YEAR\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"EVENT_TYPE\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"84\\\": {\\\"YEAR\\\": [2008], \\\"EVENT_TYPE\\\": [\\\"Tornado\\\", \\\"Lightning\\\", \\\"Thunderstorm Wind\\\"]}}\", \"color_scheme\": null, \"remote_id\": 1, \"import_time\": 1599579328}",
-                "position_json": "{\"CHART-8Ygjt_tV3w\": {\"children\": [], \"id\": \"CHART-8Ygjt_tV3w\", \"meta\": {\"chartId\": 1, \"height\": 66, \"sliceName\": \"Storm Events NOAA Pinot\", \"width\": 12}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\", \"TABS-CSjo6VfNrj\", \"TAB-EcNm_wh922\", \"ROW-z29-bGuMw\"], \"type\": \"CHART\"}, \"CHART-obPARpIxwf\": {\"children\": [], \"id\": \"CHART-obPARpIxwf\", \"meta\": {\"chartId\": 2, \"height\": 27, \"sliceName\": \"Storm Filter\", \"width\": 7}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\", \"TABS-CSjo6VfNrj\", \"TAB-EcNm_wh922\", \"ROW-OWwnd1bmQ\"], \"type\": \"CHART\"}, \"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [], \"id\": \"GRID_ID\", \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"meta\": {\"text\": \"NOAA Storm Dashboard\"}, \"type\": \"HEADER\"}, \"ROOT_ID\": {\"children\": [\"TABS-lV0r00f4H1\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"ROW-OWwnd1bmQ\": {\"children\": [\"CHART-obPARpIxwf\"], \"id\": \"ROW-OWwnd1bmQ\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\", \"TABS-CSjo6VfNrj\", \"TAB-EcNm_wh922\"], \"type\": \"ROW\"}, \"ROW-z29-bGuMw\": {\"children\": [\"CHART-8Ygjt_tV3w\"], \"id\": \"ROW-z29-bGuMw\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\", \"TABS-CSjo6VfNrj\", \"TAB-EcNm_wh922\"], \"type\": \"ROW\"}, \"TAB-EcNm_wh922\": {\"children\": [\"ROW-OWwnd1bmQ\", \"ROW-z29-bGuMw\"], \"id\": \"TAB-EcNm_wh922\", \"meta\": {\"text\": \"Storm Map\"}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\", \"TABS-CSjo6VfNrj\"], \"type\": \"TAB\"}, \"TAB-NF3dlrWGS\": {\"children\": [\"TABS-CSjo6VfNrj\"], \"id\": \"TAB-NF3dlrWGS\", \"meta\": {\"text\": \"NOAA Maps\"}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\"], \"type\": \"TAB\"}, \"TABS-CSjo6VfNrj\": {\"children\": [\"TAB-EcNm_wh922\"], \"id\": \"TABS-CSjo6VfNrj\", \"meta\": {}, \"parents\": [\"ROOT_ID\", \"TABS-lV0r00f4H1\", \"TAB-NF3dlrWGS\"], \"type\": \"TABS\"}, \"TABS-lV0r00f4H1\": {\"children\": [\"TAB-NF3dlrWGS\"], \"id\": \"TABS-lV0r00f4H1\", \"meta\": {}, \"parents\": [\"ROOT_ID\"], \"type\": \"TABS\"}}",
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"filter_scopes\": {\"1\": {\"YEAR\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"EVENT_TYPE\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"1\\\": {\\\"YEAR\\\": [2019, 2018, 2017]}}\", \"color_scheme\": null, \"remote_id\": 1, \"import_time\": 1599590113}",
+                "position_json": "{\"CHART-8Ygjt_tV3w\":{\"children\":[],\"id\":\"CHART-8Ygjt_tV3w\",\"meta\":{\"chartId\":2,\"height\":60,\"sliceName\":\"Storm Events NOAA Pinot\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-R3F84r5vW\",\"COLUMN-81TsLie2wH\",\"ROW-gEkvMkjoES\"],\"type\":\"CHART\"},\"CHART-K-vp8gd1n0\":{\"children\":[],\"id\":\"CHART-K-vp8gd1n0\",\"meta\":{\"chartId\":1,\"height\":60,\"sliceName\":\"Storm Filter\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-R3F84r5vW\",\"COLUMN-81TsLie2wH\",\"ROW-gEkvMkjoES\"],\"type\":\"CHART\"},\"CHART-c6Bi26R4ov\":{\"children\":[],\"id\":\"CHART-c6Bi26R4ov\",\"meta\":{\"chartId\":5,\"height\":59,\"sliceName\":\"Climate Events by Year\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-R3F84r5vW\",\"COLUMN-81TsLie2wH\",\"ROW-r732CmIk7_\"],\"type\":\"CHART\"},\"COLUMN-81TsLie2wH\":{\"children\":[\"ROW-gEkvMkjoES\",\"DIVIDER-hG3qNe1lUf\",\"ROW-r732CmIk7_\"],\"id\":\"COLUMN-81TsLie2wH\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-R3F84r5vW\"],\"type\":\"COLUMN\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-hG3qNe1lUf\":{\"children\":[],\"id\":\"DIVIDER-hG3qNe1lUf\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-R3F84r5vW\",\"COLUMN-81TsLie2wH\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"ROW-R3F84r5vW\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"NOAA Storm Dashboard\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-R3F84r5vW\":{\"children\":[\"COLUMN-81TsLie2wH\"],\"id\":\"ROW-R3F84r5vW\",\"meta\":{\"background\":\"BACKGROUND_WHITE\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-gEkvMkjoES\":{\"children\":[\"CHART-K-vp8gd1n0\",\"CHART-8Ygjt_tV3w\"],\"id\":\"ROW-gEkvMkjoES\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-R3F84r5vW\",\"COLUMN-81TsLie2wH\"],\"type\":\"ROW\"},\"ROW-r732CmIk7_\":{\"children\":[\"CHART-c6Bi26R4ov\"],\"id\":\"ROW-r732CmIk7_\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-R3F84r5vW\",\"COLUMN-81TsLie2wH\"],\"type\":\"ROW\"}}",
                 "slices": [
                     {
                         "__Slice__": {
@@ -14,7 +14,18 @@
                             "datasource_name": "stormEvents",
                             "datasource_type": "table",
                             "id": 2,
-                            "params": "{\"adhoc_filters\": [], \"datasource\": \"1__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"YEAR\", \"key\": \"2s98dfu\", \"label\": \"Year\", \"metric\": null, \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": false, \"clearable\": true, \"column\": \"EVENT_TYPE\", \"key\": \"li3j2lk\", \"label\": \"Event Type\", \"metric\": null, \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"year\", \"queryFields\": {}, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 2, \"datasource_name\": \"stormEvents\", \"schema\": null, \"database_name\": \"pinot-quickstart\", \"import_time\": 1599579328}",
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_txfxple4jvr_xa3sfa4eq88\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"BEGIN_LON <> 'null'\", \"subject\": null}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_xhflj6icbvp_j8yxlbxxhm\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"BEGIN_LAT <> 'null'\", \"subject\": null}], \"autozoom\": false, \"color_picker\": {\"a\": 1, \"b\": 0, \"g\": 235, \"r\": 5}, \"color_scheme\": \"bnbColors\", \"datasource\": \"1__table\", \"dimension\": \"EVENT_TYPE\", \"filter_nulls\": true, \"granularity\": null, \"granularity_sqla\": \"BEGIN_DATE_TIME\", \"js_columns\": [], \"label_colors\": {}, \"legend_format\": \"SMART_NUMBER\", \"legend_position\": null, \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\", \"max_radius\": 10, \"min_radius\": 1, \"multiplier\": 1, \"point_radius_fixed\": {\"type\": \"metric\", \"value\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"INJURIES_DIRECT\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 417, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"LONG\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(INJURIES_DIRECT)\", \"optionName\": \"metric_ifcnzq5zdb_352p7bg67wa\", \"sqlExpression\": null}}, \"point_unit\": \"radius_miles\", \"queryFields\": {\"dimension\": \"groupby\", \"js_columns\": \"groupby\"}, \"row_limit\": null, \"spatial\": {\"latCol\": \"BEGIN_LAT\", \"lonCol\": \"BEGIN_LON\", \"type\": \"latlong\"}, \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport\": {\"altitude\": 1.5, \"bearing\": -0.9523809523809523, \"height\": 853, \"latitude\": 38.84999965618232, \"longitude\": -95.87581313193579, \"maxPitch\": 60, \"maxZoom\": 20, \"minPitch\": 0, \"minZoom\": 0, \"pitch\": 0.16104500357114526, \"position\": [0, 0, 0], \"transitionDuration\": 0, \"width\": 1144, \"zoom\": 3.7316466929996444}, \"viz_type\": \"deck_scatter\", \"remote_id\": 2, \"datasource_name\": \"stormEvents\", \"schema\": null, \"database_name\": \"pinot-quickstart\"}",
+                            "slice_name": "Storm Events NOAA Pinot",
+                            "viz_type": "deck_scatter"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "stormEvents",
+                            "datasource_type": "table",
+                            "id": 1,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"1__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"YEAR\", \"key\": \"2s98dfu\", \"label\": \"Year\", \"metric\": null, \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": false, \"clearable\": true, \"column\": \"EVENT_TYPE\", \"key\": \"li3j2lk\", \"label\": \"Event Type\", \"metric\": null, \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"year\", \"queryFields\": {}, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 1, \"datasource_name\": \"stormEvents\", \"schema\": null, \"database_name\": \"pinot-quickstart\", \"import_time\": 1599590113}",
                             "slice_name": "Storm Filter",
                             "viz_type": "filter_box"
                         }
@@ -24,10 +35,33 @@
                             "cache_timeout": null,
                             "datasource_name": "stormEvents",
                             "datasource_type": "table",
-                            "id": 1,
-                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_txfxple4jvr_xa3sfa4eq88\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"BEGIN_LON <> 'null'\", \"subject\": null}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_xhflj6icbvp_j8yxlbxxhm\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"BEGIN_LAT <> 'null'\", \"subject\": null}], \"autozoom\": false, \"color_picker\": {\"a\": 1, \"b\": 0, \"g\": 235, \"r\": 5}, \"color_scheme\": \"d3Category20\", \"datasource\": \"1__table\", \"dimension\": \"EVENT_TYPE\", \"filter_nulls\": true, \"granularity\": null, \"granularity_sqla\": \"BEGIN_DATE_TIME\", \"js_columns\": [], \"label_colors\": {}, \"legend_format\": \"SMART_NUMBER\", \"legend_position\": null, \"mapbox_style\": \"mapbox://styles/mapbox/dark-v9\", \"max_radius\": 10, \"min_radius\": 1, \"multiplier\": 1, \"point_radius_fixed\": {\"type\": \"metric\", \"value\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"INJURIES_DIRECT\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 417, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"LONG\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(INJURIES_DIRECT)\", \"optionName\": \"metric_ifcnzq5zdb_352p7bg67wa\", \"sqlExpression\": null}}, \"point_unit\": \"radius_miles\", \"queryFields\": {\"dimension\": \"groupby\", \"js_columns\": \"groupby\"}, \"row_limit\": null, \"spatial\": {\"latCol\": \"BEGIN_LAT\", \"lonCol\": \"BEGIN_LON\", \"type\": \"latlong\"}, \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport\": {\"altitude\": 1.5, \"bearing\": -0.9523809523809523, \"height\": 853, \"latitude\": 38.84999965618232, \"longitude\": -95.87581313193579, \"maxPitch\": 60, \"maxZoom\": 20, \"minPitch\": 0, \"minZoom\": 0, \"pitch\": 0.16104500357114526, \"position\": [0, 0, 0], \"transitionDuration\": 0, \"width\": 1144, \"zoom\": 3.7316466929996444}, \"viz_type\": \"deck_scatter\", \"remote_id\": 1, \"datasource_name\": \"stormEvents\", \"schema\": null, \"database_name\": \"pinot-quickstart\"}",
-                            "slice_name": "Storm Events NOAA Pinot",
-                            "viz_type": "deck_scatter"
+                            "id": 5,
+                            "params": "{\"adhoc_filters\": [], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"YEAR\"], \"contribution\": true, \"datasource\": \"1__table\", \"granularity_sqla\": \"EPOCH_HOURS\", \"groupby\": [\"EVENT_TYPE\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"order_bars\": false, \"queryFields\": {\"columns\": \"groupby\", \"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"reduce_x_ticks\": true, \"row_limit\": 50000, \"show_bar_value\": false, \"show_controls\": false, \"show_legend\": true, \"slice_id\": 5, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_axis_label\": \"Event Type\", \"x_ticks_layout\": \"auto\", \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Storm Frequency\", \"remote_id\": 5, \"datasource_name\": \"stormEvents\", \"schema\": null, \"database_name\": \"pinot-quickstart\"}",
+                            "slice_name": "Climate Events by Year",
+                            "viz_type": "dist_bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        },
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "US Climate Event Heatmap",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 2}",
+                "position_json": "{\"CHART-X2uv6oiTUW\":{\"children\":[],\"id\":\"CHART-X2uv6oiTUW\",\"meta\":{\"chartId\":3,\"height\":88,\"sliceName\":\"Climate Change Heatmap US\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-5-CjVuPeNY\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-5-CjVuPeNY\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"US Climate Event Heatmap\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-5-CjVuPeNY\":{\"children\":[\"CHART-X2uv6oiTUW\"],\"id\":\"ROW-5-CjVuPeNY\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "stormEvents",
+                            "datasource_type": "table",
+                            "id": 3,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"null\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_64e6f7olbid_1qx4gneopk1\", \"isExtra\": false, \"isNew\": false, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"STATE\"}, {\"clause\": \"WHERE\", \"comparator\": 2020, \"expressionType\": \"SIMPLE\", \"isExtra\": false, \"isNew\": false, \"operator\": \"<\", \"sqlExpression\": null, \"subject\": \"YEAR\"}, {\"clause\": \"WHERE\", \"comparator\": 1995, \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_gbpqkh1vbri_7totesxy1cj\", \"isExtra\": false, \"isNew\": false, \"operator\": \">\", \"sqlExpression\": null, \"subject\": \"YEAR\"}], \"all_columns_x\": \"STATE\", \"all_columns_y\": \"YEAR\", \"bottom_margin\": 100, \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"1__table\", \"granularity_sqla\": \"EPOCH_TIMESTAMP\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"superset_seq_2\", \"metric\": \"count\", \"normalize_across\": \"heatmap\", \"normalized\": false, \"queryFields\": {\"metric\": \"metrics\"}, \"row_limit\": 50000, \"show_legend\": true, \"show_perc\": true, \"show_values\": false, \"slice_id\": 3, \"sort_x_axis\": \"value_desc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": 1, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": 1, \"remote_id\": 3, \"datasource_name\": \"stormEvents\", \"schema\": null, \"database_name\": \"pinot-quickstart\"}",
+                            "slice_name": "Climate Change Heatmap US",
+                            "viz_type": "heatmap"
                         }
                     }
                 ],
@@ -42,14 +76,62 @@
                 "columns": [
                     {
                         "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-09-09T08:03:11"
+                            },
+                            "column_name": "BEGIN_DATE_TIME",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2020-09-08T18:35:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": "epoch_ms",
+                            "table_id": 1,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-09-09T08:13:22"
+                            },
+                            "column_name": "EPOCH_TIMESTAMP",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-09-09T08:03:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 52,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": "epoch_ms",
+                            "table_id": 1,
+                            "type": "BIGINT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "BEGIN_LAT",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -68,12 +150,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "BEGIN_LON",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -92,12 +174,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "BEGIN_YEARMONTH",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -116,12 +198,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "BEGIN_DAY",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -140,12 +222,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "END_YEARMONTH",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -164,12 +246,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "END_DAY",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -188,12 +270,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "END_TIME",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -212,12 +294,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "EPISODE_ID",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -236,12 +318,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "EVENT_ID",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -260,12 +342,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "STATE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -284,12 +366,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "STATE_FIPS",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -308,12 +390,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "YEAR",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -332,12 +414,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "MONTH_NAME",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -356,12 +438,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "EVENT_TYPE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:24"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -380,12 +462,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "CZ_TYPE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -404,12 +486,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "CZ_FIPS",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -428,12 +510,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "CZ_NAME",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -452,12 +534,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "WFO",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:24"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -476,36 +558,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
-                            },
-                            "column_name": "BEGIN_DATE_TIME",
-                            "created_by_fk": null,
-                            "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 1,
-                            "is_active": null,
-                            "is_dttm": true,
-                            "python_date_format": "",
-                            "table_id": 1,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": null,
-                            "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "END_LAT",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -524,12 +582,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "END_LON",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -548,12 +606,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "CZ_TIMEZONE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -572,12 +630,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "END_DATE_TIME",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -596,12 +654,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "INJURIES_DIRECT",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -620,12 +678,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "INJURIES_INDIRECT",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -644,12 +702,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "DEATHS_DIRECT",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -668,12 +726,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "DEATHS_INDIRECT",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -692,12 +750,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "DAMAGE_PROPERTY",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -716,12 +774,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "DAMAGE_CROPS",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -740,12 +798,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "SOURCE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -764,12 +822,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "MAGNITUDE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -788,12 +846,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "MAGNITUDE_TYPE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -812,12 +870,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "FLOOD_CAUSE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -836,12 +894,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "CATEGORY",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -860,12 +918,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "TOR_F_SCALE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -884,12 +942,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "TOR_LENGTH",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:24"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -908,12 +966,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "TOR_WIDTH",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:24"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -932,12 +990,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "TOR_OTHER_WFO",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:24"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -956,12 +1014,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "TOR_OTHER_CZ_STATE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -980,12 +1038,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "TOR_OTHER_CZ_FIPS",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1004,12 +1062,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "TOR_OTHER_CZ_NAME",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1028,12 +1086,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "BEGIN_RANGE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1052,12 +1110,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "BEGIN_AZIMUTH",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1076,12 +1134,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "BEGIN_LOCATION",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1100,12 +1158,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "END_RANGE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1124,12 +1182,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "END_AZIMUTH",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1148,12 +1206,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "END_LOCATION",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1172,12 +1230,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "EPISODE_NARRATIVE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1196,12 +1254,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "EVENT_NARRATIVE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1220,12 +1278,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "DATA_SOURCE",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1244,12 +1302,12 @@
                         "__TableColumn__": {
                             "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2020-09-08T15:35:28"
+                                "__datetime__": "2020-09-08T18:35:13"
                             },
                             "column_name": "BEGIN_TIME",
                             "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2020-09-08T15:35:23"
+                                "__datetime__": "2020-09-08T18:35:07"
                             },
                             "description": null,
                             "expression": null,
@@ -1263,6 +1321,30 @@
                             "type": "STRING",
                             "verbose_name": null
                         }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-09-10T13:11:09"
+                            },
+                            "column_name": "EPOCH_HOURS",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-09-09T19:03:32"
+                            },
+                            "description": null,
+                            "expression": "DATETIMECONVERT(EPOCH_TIMESTAMP, '1:MILLISECONDS:EPOCH', '1:DAYS:SIMPLE_DATE_FORMAT:yyyy-dd-MM', '1:DAYS')",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 55,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": "%Y-%d-%m",
+                            "table_id": 1,
+                            "type": null,
+                            "verbose_name": null
+                        }
                     }
                 ],
                 "database_id": 1,
@@ -1274,7 +1356,7 @@
                 "metrics": [
                 ],
                 "offset": 0,
-                "params": "{\"remote_id\": 1, \"database_name\": \"pinot-quickstart\", \"import_time\": 1599579328}",
+                "params": "{\"remote_id\": 1, \"database_name\": \"pinot-quickstart\", \"import_time\": 1599590113}",
                 "schema": null,
                 "sql": null,
                 "table_name": "stormEvents",
